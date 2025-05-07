@@ -1,0 +1,28 @@
+.container {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 200px;
+}
+
+.thing {
+  position: absolute;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;   
+}
+
+#bucket {
+    z-index: 1;
+    width: 200px;
+}
+
+#bug {
+    z-index: 0;
+    width: 100px;
+}
